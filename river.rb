@@ -7,5 +7,14 @@ class River
     @countries = countries
     @discharge = discharge
   end
+  
+  def flood
+    discharge + .3
+  end
+  
+  def dry_up
+    discharge - .5
+    
+  end
 
 end
