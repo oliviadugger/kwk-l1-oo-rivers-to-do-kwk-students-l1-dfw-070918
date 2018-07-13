@@ -9,7 +9,7 @@ class River
   end
   
   def flood
-    @discharge *= 0.3
+    @discharge *= 1.3
   end
   
   def dry_up
