@@ -9,11 +9,11 @@ class River
   end
   
   def flood
-    discharge + .3
+    discharge = discharge + .3
   end
   
   def dry_up
-    discharge - .5
+    discharge = discharge - .5
     
   end
 
